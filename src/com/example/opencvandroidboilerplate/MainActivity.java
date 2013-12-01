@@ -80,8 +80,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 		Mat mat = new Mat();
 		Mat input = inputFrame.rgba();
 		
-		processFrame(input.getNativeObjAddr(), mat.getNativeObjAddr(), 
-				input.height(), input.width());
+		processFrame(input.getNativeObjAddr(), mat.getNativeObjAddr());
 	    return mat;
 	    
 	}
@@ -93,5 +92,5 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 		return true;
 	}
 
-	public native void processFrame(long matAddrInRGBA, long matAddrOutInRGBA, int height, int width);
+	public native void processFrame(long matAddrInRGBA, long matAddrOutInRGBA);
 }
