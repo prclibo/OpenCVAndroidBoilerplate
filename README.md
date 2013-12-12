@@ -22,7 +22,7 @@ This project assumes that you are familiar with OpenCV development.
   - Right click the project OpenCVAndroidBoilerplate in the Package Explorer in Eclipse and select Properties. Click Android in the Properties window and then add the OpenCV Library x.x.x into the Library list.
 
 2. Compile the native code (C++ code in the `jni` folder)
-  - Open to `jni/Android.mk`. Change `<some_path>` to the path of your downloaded OpenCV4Android SDK.
+  - Open `jni/Android.mk`. Change `<some_path>` to the path of your downloaded OpenCV4Android SDK.
   - In a terminal window go to the `jni/` folder, execute `<some_path>/ndk-build`, where `<some_path>` is the path you installed Android NDK. When you see some output as follows, the compilation is good.
     [armeabi-v7a] Install        : libprocess_frame.so => libs/armeabi-v7a/libprocess_frame.so
 
