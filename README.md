@@ -4,7 +4,7 @@ This is a boilerplate Eclipse project for the OpenCV4Android API. This project i
 
 Part of the code in this project is from OpenCV4Android official [tutorial](http://docs.opencv.org/doc/tutorials/introduction/android_binary_package/dev_with_OCV_on_Android.html#hello-opencv-sample).
 
-If you read Chinese, 请参考《[OpenCV4Android+JNI开发快速上手入门](http://cvnote.info/opencv4androidjni-quick-tutorial/)》配合使用。
+If you read Chinese, 请参考《[OpenCV4Android+JNI开发快速上手入门](http://my.oschina.net/cvnote/blog/180661)》配合使用。
 
 ## Quick Start
 
